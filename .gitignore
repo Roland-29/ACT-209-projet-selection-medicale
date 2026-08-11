@@ -1,0 +1,15 @@
+# Données : jamais versionnées
+data/*.csv
+data/*.zip
+
+# Sorties régénérables
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
