@@ -6,6 +6,5 @@ Projet d'évaluation — IA & Assurance, 2025-2026.
 
 ## Données
 Jeu Prudential Life Insurance Assessment (Kaggle), non versionné.
-Télécharger `train.csv` et le placer dans `data/`.
 
 ## Installation 
