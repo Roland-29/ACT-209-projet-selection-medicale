@@ -5,6 +5,5 @@ Impact de la suppression du questionnaire de santé sur la classification du ris
 Projet d'évaluation — IA & Assurance, 2025-2026.
 
 ## Données
-Jeu Prudential Life Insurance Assessment (Kaggle), non versionné.
-
-## Installation 
+Jeu Prudential Life Insurance Assessment (Kaggle), non versionné. 
+## Installation
