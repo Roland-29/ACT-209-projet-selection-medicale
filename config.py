@@ -25,7 +25,7 @@ CIBLE = "Response"
 N_CLASSES = 8
 
 # --- Blocs de variables ------------------------------------------------------
-# Le cœur de noter étude d'ablation se fait ici.
+# Le cœur de notre étude d'ablation se fait ici.
 
 BLOC_PRODUIT = [f"Product_Info_{i}" for i in range(1, 8)]
 
@@ -58,11 +58,11 @@ CATEGORIELLES_TEXTE = ["Product_Info_2"]
 # Chaque configuration est définie par les blocs conservés.
 
 BLOCS_NON_MEDICAUX = (
-    BLOC_PRODUIT
-    + BLOC_DEMOGRAPHIQUE
-    + BLOC_EMPLOI
-    + BLOC_ASSURE
-    + BLOC_HISTORIQUE_ASSURANCE
+        BLOC_PRODUIT
+        + BLOC_DEMOGRAPHIQUE
+        + BLOC_EMPLOI
+        + BLOC_ASSURE
+        + BLOC_HISTORIQUE_ASSURANCE
 )
 
 CONFIGURATIONS = {
@@ -75,11 +75,11 @@ CONFIGURATIONS = {
             "le coût informationnel de la réforme."
         ),
         "colonnes": (
-            BLOCS_NON_MEDICAUX
-            + BLOC_MORPHOLOGIQUE
-            + BLOC_ANTECEDENTS_FAMILIAUX
-            + BLOC_ANTECEDENTS_MEDICAUX
-            + BLOC_MOTS_CLES_MEDICAUX
+                BLOCS_NON_MEDICAUX
+                + BLOC_MORPHOLOGIQUE
+                + BLOC_ANTECEDENTS_FAMILIAUX
+                + BLOC_ANTECEDENTS_MEDICAUX
+                + BLOC_MOTS_CLES_MEDICAUX
         ),
     },
     "sans_antecedents": {
