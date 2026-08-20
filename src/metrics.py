@@ -2,7 +2,7 @@
 
 La cible compte huit niveaux de risque ordonnés. Une erreur de 1 vers 2 n'a pas
 la même portée métier qu'une erreur de 1 vers 8 : dans le premier cas la
-tarification est légèrement décalée, dans le second elle est absurde. Les
+tarification est légèrement décalée, dans le second, elle est absurde. Les
 métriques de classification usuelles — exactitude, F1 — traitent ces deux cas
 de façon identique et sont donc inadaptées.
 
@@ -19,7 +19,7 @@ from sklearn.metrics import accuracy_score, cohen_kappa_score, confusion_matrix
 def kappa_quadratique(y_vrai, y_pred) -> float:
     """Kappa de Cohen à pondération quadratique.
 
-    Vaut 1 pour un accord parfait, 0 pour un accord équivalent au hasard,
+    Il vaut 1 pour un accord parfait, 0 pour un accord équivalent au hasard,
     et peut devenir négatif si la prédiction fait pire que le hasard.
     """
     return cohen_kappa_score(y_vrai, y_pred, weights="quadratic")
