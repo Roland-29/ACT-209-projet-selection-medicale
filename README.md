@@ -76,6 +76,7 @@ python3 scripts/01_inventaire.py
 python3 scripts/02_exploration.py
 python3 scripts/03_ablation.py            # environ 4 minutes
 python3 scripts/03_ablation.py --rapide   # version allégée, pour vérifier l'installation
+python3 scripts/04_demo.py          # Démonstration sur un dossier individuel
 ```
 
 ## Choix méthodologiques
